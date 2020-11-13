@@ -31,10 +31,10 @@
     <platform name="ios">
         
         <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
+      
+        <edit-config file="*-Info.plist" mode="merge" target="UIUserInterfaceStyle">
             <string>Light</string>
-        </config-file>
-        
+        </edit-config>
         
         
     </platform>
